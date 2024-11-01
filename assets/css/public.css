@@ -1,0 +1,254 @@
+.wpf_portfolios * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wpf-portfolio-item {
+  float: left;
+}
+
+.wpf-columns-1 .wpf-portfolio-item {
+  width: 100%;
+}
+
+.wpf-columns-2 .wpf-portfolio-item {
+  width: 50%;
+}
+
+.wpf-columns-3 .wpf-portfolio-item {
+  width: 33.3333333%;
+}
+
+.wpf-columns-4 .wpf-portfolio-item {
+  width: 25%;
+}
+
+.wpf-columns-5 .wpf-portfolio-item {
+  width: 20%;
+}
+
+.wpf-columns-6 .wpf-portfolio-item {
+  width: 16.666%;
+}
+
+.wpf-portfolio-item figure {
+  width: 100.2%;
+  margin: 0;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.wpf-portfolio-item .wpf-portfolio-img img {
+  display: block;
+  width: 100%;
+  /*     transition: filter .9s ease-out; buggy behavior with transition*/
+}
+
+.wpf-portfolio-item a.wpf-portfolio-link, .wpf-portfolio-item .item-title {
+  font-size: 17px;
+  color: #f9fafa;
+}
+
+.wpf-portfolio-item .wpf-portfolio-img a.wpf-portfolio-link {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.wpf-portfolio-item .wpf-item-description h5 {
+  margin: 0;
+}
+
+.wpf-portfolio-item .wpf-item-description p {
+  margin: 5px 0;
+}
+
+.wpf-portfolio-item a.wpf-portfolio-link:hover, .wpf-portfolio-item .item-title:hover {
+  text-decoration: none;
+  color: #f9fafa;
+}
+
+.wpf-portfolio-item figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.wpf-portfolio-item .wpf-item-description {
+  position: absolute;
+  display: table;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+}
+
+.wpf-portfolio-item  .wpf-description-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.standard .wpf-portfolio-item .wpf-item-description {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: transform .23s ease-out;
+  transition: transform .23s ease-out;
+}
+
+.standard  .wpf-portfolio-item figure:hover .wpf-item-description {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.standard .wpf-portfolio-item figure:hover .wpf-portfolio-img img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.standard .wpf-portfolio-item figure .wpf-portfolio-img img {
+  transition: all 0.42s;
+  -webkit-transition: all 0.42s;
+}
+
+.slide-up .wpf-portfolio-item figure:hover .wpf-item-description {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
+.slide-up .wpf-portfolio-item figure:hover .wpf-portfolio-img img {
+  opacity: 1;
+  transform: translateY(-100px);
+  -webkit-transform:translateY(-100px);
+  -moz-transform:translateY(-100px);
+  -ms-transform:translateY(-100px);
+  -o-transform:translateY(-100px);
+
+}
+
+
+.slide-up .wpf-portfolio-item .wpf-portfolio-img img{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  z-index: 4;
+  -webkit-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+}
+
+
+.slide-up .wpf-portfolio-item .wpf-item-description{
+  cursor: pointer;
+  position: absolute;
+  height: 100px;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+
+}
+
+.white-overlay  .wpf-portfolio-item figure:hover .wpf-item-description {
+  opacity: 1;
+  transform: none;
+  -webkit-transform: none;
+}
+
+.white-overlay .wpf-portfolio-item figure:hover img {
+  transition: all 0.42s;
+  -webkit-transition: all 0.42s;
+}
+
+.white-overlay .wpf-portfolio-item figure:hover img {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.white-overlay  .wpf-portfolio-item figure {
+  height: 100%;
+}
+
+.wpf_portfolios.white-overlay .wpf-portfolio-item figcaption.wpf-item-description {
+  background-color: transparent;
+}
+
+.white-overlay .wpf-portfolio-item .wpf-item-description {
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  padding: 7%;
+  opacity: 0;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  transition: opacity 0.3s ease-in-out, transform 0.23s;
+  -webkit-transition: opacity 0.3s ease-in-out, transform 0.23s;
+}
+
+.white-overlay .wpf-description-wrap {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 0 15px;
+}
+
+.white-overlay .wpf-inner-wrap {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.white-overlay .wpf-portfolio-item a.wpf-portfolio-link {
+  color: #333
+}
+
+.white-overlay .wpf-portfolio-item .wpf-item-description p {
+  color: #333
+}
+
+.no-space .wpf-portfolio-item {
+  padding: 0;
+  margin: 0;
+}
+
+.with-space .wpf-portfolio-item {
+  padding: 5px;
+}
+
+.wpf-portfolio-meta {
+  margin-bottom: 15px;
+}
+
+.wpf-portfolio-meta span {
+  display: block;
+}
+
+@media only screen and (max-width: 980px) {
+  .wpf_portfolios .wpf-portfolio-item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wpf_portfolios .wpf-portfolio-item {
+    width: 100%;
+  }
+}

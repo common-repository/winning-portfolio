@@ -1,0 +1,297 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Winning Portfolio\n"
+"POT-Creation-Date: 2016-10-13 20:02+0200\n"
+"PO-Revision-Date: 2016-10-13 20:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: main.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/inc/kc_support.php:15
+msgid "Add portfolio list"
+msgstr ""
+
+#: core/inc/kc_support.php:25
+msgid "Number Of Portfolios"
+msgstr ""
+
+#: core/inc/kc_support.php:27
+msgid ""
+"Limit Number of displayed items. To show all leave it empty or enter -1."
+msgstr ""
+
+#: core/inc/kc_support.php:33 core/setup.php:68 core/setup.php:77
+msgid "Category"
+msgstr ""
+
+#: core/inc/kc_support.php:35
+msgid ""
+"Show items only from selected category, or comma separated list of categories"
+msgstr ""
+
+#: core/inc/kc_support.php:41
+msgid "Order"
+msgstr ""
+
+#: core/inc/kc_support.php:43
+msgid "Show items from selected category"
+msgstr ""
+
+#: core/inc/kc_support.php:56
+msgid "Organize"
+msgstr ""
+
+#: core/inc/kc_support.php:58
+msgid "Organize results"
+msgstr ""
+
+#: core/inc/kc_support.php:69
+msgid "Columns"
+msgstr ""
+
+#: core/inc/kc_support.php:71
+msgid ""
+"Select Number of Columns in which portfolios will be listed. Columns will "
+"take equal widths, so if you select 4 columns, each portfolio will have "
+"width of 25%, etc."
+msgstr ""
+
+#: core/init.php:19
+msgid "Winning Portfolio Options"
+msgstr ""
+
+#: core/options/options.core.php:197
+msgid "Modify the portfolios display."
+msgstr ""
+
+#: core/options/options.core.php:241
+msgid "Settings Saved"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:40
+msgid "Customize the portfolios list display."
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:70
+msgid "Portfolio List Layout"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:71
+msgid "Choose the layout that will be applied to portfolio list."
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:83
+msgid "Excerpt Background Color"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:84
+msgid ""
+"Choose the background color for excerpt field, which is shown on hover in "
+"portfolio list"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:93
+msgid "Excerpt Text Color"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:94
+msgid ""
+"Choose the text color for excerpt field, which is shown on hover in "
+"portfolio list"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:103
+msgid "Excerpt Title Color"
+msgstr ""
+
+#: core/options/sections/portfolio-list.php:104
+msgid ""
+"Choose the title text color in excerpt field, which is shown on hover in "
+"portfolio list"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:40
+msgid "Customize the portfolio single page display."
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:58
+msgid "Custom Meta Position"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:59
+msgid ""
+"Choose to show custom fields (like link, date created, etc.) before the main "
+"content on the single portfolio page, or after the main content."
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:65
+msgid "Above Content"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:69
+msgid "Bellow Content"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:80
+msgid "External Link in Single Portfolio"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:81
+msgid ""
+"Choose to show external link field on the single portfolio page, instead of "
+"pointing to the url directly from list. This way when you click on portfolio "
+"in list, it will open single portfolio page, and with other custom data, "
+"like date finished, external link will be show."
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:87
+msgid "Yes"
+msgstr ""
+
+#: core/options/sections/portfolio-single.php:91
+msgid "No"
+msgstr ""
+
+#: core/parts/main-hooks.php:71
+msgid "External Link"
+msgstr ""
+
+#: core/parts/main-hooks.php:72 core/parts/public.php:229
+msgid "Date Finished"
+msgstr ""
+
+#: core/parts/main-hooks.php:112
+msgid "Portfolio List Options"
+msgstr ""
+
+#: core/parts/main-hooks.php:119
+msgid "Single Portfolio Options"
+msgstr ""
+
+#: core/parts/main-hooks.php:191
+msgid "Without Space"
+msgstr ""
+
+#: core/parts/main-hooks.php:197
+msgid "With Space"
+msgstr ""
+
+#: core/parts/public.php:228
+msgid "Portfolio Link"
+msgstr ""
+
+#: core/setup.php:28 core/setup.php:29 core/setup.php:30
+msgid "Portfolio"
+msgstr ""
+
+#: core/setup.php:31
+msgid "Add New"
+msgstr ""
+
+#: core/setup.php:32
+msgid "Add New Portfolio"
+msgstr ""
+
+#: core/setup.php:33
+msgid "New Portfolio"
+msgstr ""
+
+#: core/setup.php:34
+msgid "Edit Portfolio"
+msgstr ""
+
+#: core/setup.php:35
+msgid "View Portfolio"
+msgstr ""
+
+#: core/setup.php:36
+msgid "All Portfolios"
+msgstr ""
+
+#: core/setup.php:37
+msgid "Search Portfolios"
+msgstr ""
+
+#: core/setup.php:38
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: core/setup.php:39
+msgid "No Portfolio found."
+msgstr ""
+
+#: core/setup.php:40
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: core/setup.php:45
+msgid "Description."
+msgstr ""
+
+#: core/setup.php:67
+msgid "Categories"
+msgstr ""
+
+#: core/setup.php:69
+msgid "Search Categories"
+msgstr ""
+
+#: core/setup.php:70
+msgid "All Categories"
+msgstr ""
+
+#: core/setup.php:71
+msgid "Parent Category"
+msgstr ""
+
+#: core/setup.php:72
+msgid "Parent Category:"
+msgstr ""
+
+#: core/setup.php:73
+msgid "Edit Category"
+msgstr ""
+
+#: core/setup.php:74
+msgid "Update Category"
+msgstr ""
+
+#: core/setup.php:75
+msgid "Add New Category"
+msgstr ""
+
+#: core/setup.php:76
+msgid "New Category Name"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Winning Portfolio"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://pressfore.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Very Flexibile and simple to use Portfolios plugin, compatible with King "
+"Composer and Visual Composer"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pressfore"
+msgstr ""
